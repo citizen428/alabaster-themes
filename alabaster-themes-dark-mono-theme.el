@@ -102,6 +102,7 @@
                       (fg-mode-line       "#CECECE")
                       (bg-completion      "#1a1a1a")
                       (bg-hover           "#1a1a1a")
+                      (fg-hover           "#ffffff")
                       (bg-hl-line         "#1a1a1a")
                       (bg-region          "#1a1a1a")
                       (bg-err             "#332020")

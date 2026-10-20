@@ -106,6 +106,7 @@
                       (fg-mode-line       "#000000")
                       (bg-completion      "#DBF1FF")
                       (bg-hover           "#BFDBFE")
+                      (fg-hover           "#000000")
                       (bg-hl-line         "#f5f5f5")
                       (bg-region          "#B4D8FD")
                       (bg-err             "#FFE0E0")
@@ -215,7 +216,7 @@
                       `(line-number-current-line ((,c ,@(alabaster-themes--bold) :foreground ,fg-intense)))
                       `(hl-line ((,c :background ,bg-hl-line)))
                       `(region ((,c :background ,bg-region :foreground ,fg-region)))
-                      `(highlight ((,c :background ,bg-hover :foreground ,fg-intense)))
+                      `(highlight ((,c :background ,bg-hover :foreground ,fg-hover)))
                       `(isearch ((,c :background ,bg-search-current :foreground ,fg-intense)))
                       `(lazy-highlight ((,c :background ,bg-search-lazy :foreground ,fg-intense)))
                       `(match ((,c :background ,bg-search-match)))
@@ -278,7 +279,7 @@
 
 ;;;; Line highlighting
                       `(hl-line ((,c :background ,bg-hl-line)))
-                      `(highlight ((,c :background ,bg-hover :foreground ,fg-intense)))
+                      `(highlight ((,c :background ,bg-hover :foreground ,fg-hover)))
                       `(region ((,c :background ,bg-region :foreground ,fg-region)))
 
 ;;;; Compilation and grep
