@@ -234,7 +234,7 @@
                       `(font-lock-comment-delimiter-face ((,c :inherit font-lock-comment-face)))
                       `(font-lock-string-face ((,c :background ,bg-green-subtle :foreground ,fg-main)))
                       `(font-lock-doc-face ((,c :inherit font-lock-string-face)))
-                      `(font-lock-keyword-face ((,c :foreground ,keyword)))
+                      `(font-lock-keyword-face ((,c ,@(alabaster-themes--bold) :foreground ,keyword)))
                       `(font-lock-builtin-face ((,c :foreground ,builtin)))
                       `(font-lock-function-name-face ((,c :background ,bg-blue-subtle :foreground ,fg-main)))
                       `(font-lock-variable-name-face ((,c :foreground ,variable)))
