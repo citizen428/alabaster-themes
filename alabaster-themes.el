@@ -178,6 +178,98 @@ overrides."
   :prefix "alabaster-themes-"
   :tag "Alabaster Themes Faces")
 
+(defface alabaster-themes-heading-0 '((t :inherit default))
+  "Face for document titles."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-1 '((t :inherit default))
+  "Face for level 1 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-2 '((t :inherit default))
+  "Face for level 2 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-3 '((t :inherit default))
+  "Face for level 3 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-4 '((t :inherit default))
+  "Face for level 4 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-5 '((t :inherit default))
+  "Face for level 5 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-6 '((t :inherit default))
+  "Face for level 6 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-7 '((t :inherit default))
+  "Face for level 7 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-heading-8 '((t :inherit default))
+  "Face for level 8 headings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-mark-delete '((t :inherit error))
+  "Face for items marked for deletion."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-mark-select '((t :inherit success))
+  "Face for selected items."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-mark-other '((t :inherit warning))
+  "Face for items marked in some other way."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-current '((t :inherit isearch))
+  "Face for the current search match."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-lazy '((t :inherit lazy-highlight))
+  "Face for the other search matches."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-match '((t :inherit match))
+  "Face for matches of a search or query."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-replace '((t :inherit query-replace))
+  "Face for text about to be replaced."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-rx-group-0 '((t :inherit highlight))
+  "Face for regexp group 0 matches."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-rx-group-1 '((t :inherit highlight))
+  "Face for regexp group 1 matches."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-rx-group-2 '((t :inherit highlight))
+  "Face for regexp group 2 matches."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-search-rx-group-3 '((t :inherit highlight))
+  "Face for regexp group 3 matches."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-underline-error '((t :underline (:style wave)))
+  "Face for underlining errors."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-underline-warning '((t :underline (:style wave)))
+  "Face for underlining warnings."
+  :group 'alabaster-themes-faces)
+
+(defface alabaster-themes-underline-info '((t :underline (:style wave)))
+  "Face for underlining informational notes."
+  :group 'alabaster-themes-faces)
+
 (defvar alabaster-themes-custom-variables '()
   "Custom variable specifications for Alabaster themes.")
 
